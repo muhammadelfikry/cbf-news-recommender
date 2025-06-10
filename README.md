@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-Sistem rekomendasi merupakan komponen penting dalam dunia digital saat ini, terutama dalam industri media dan berita. Dengan banyaknya konten berita yang tersedia setiap harinya, pengguna kerap mengalami kesulitan menemukan berita yang relevan dengan minat mereka. Oleh karena itu, dibutuhkan sistem yang mampu memberikan rekomendasi berita yang sesuai dengan preferensi pengguna.
+Sistem rekomendasi merupakan komponen penting dalam dunia digital saat ini, terutama dalam industri media dan berita. Dengan banyaknya konten berita yang tersedia setiap harinya, pengguna kerap mengalami kesulitan menemukan berita yang relevan dengan minat mereka. Oleh karena itu, dibutuhkan sistem yang mampu memberikan rekomendasi berita yang sesuai dengan preferensi pengguna. Sistem rekomendasi memiliki peran penting dalam meningkatkan pengalaman pengguna. Sebagaimana dijelaskan oleh Ricci, Rokach, dan Shapira (2015), sistem rekomendasi dapat meningkatkan pengalaman pengguna dengan memberikan rekomendasi yang menarik dan relevan, didukung dengan desain interaksi manusia-komputer yang baik sehingga pengguna menikmati penggunaan sistem tersebut.
 
-Salah satu pendekatan sistem rekomendasi adalah *content-based filtering*, yang memanfaatkan kemiripan konten antar item (dalam hal ini, berita) untuk memberikan rekomendasi. Proyek ini bertujuan membangun sistem rekomendasi berita berbasis *content-based filtering* dengan menggunakan *cosine similarity* terhadap fitur deskripsi berita pada dataset *BBC News*.
+Salah satu pendekatan sistem rekomendasi adalah *content-based filtering*, yang memanfaatkan kemiripan konten antar item (dalam hal ini, berita) untuk memberikan rekomendasi. Upreti, Sengar, Goel, dan Bahl (2025), menjelaskan bahwa sistem rekomendasi berbasis konten bekerja dengan menganalisis atribut-atribut seperti genre, penulis, dan kata kunci, kemudian mencocokkannya dengan riwayat bacaan atau preferensi yang dinyatakan. Proyek ini bertujuan membangun sistem rekomendasi berita berbasis *content-based filtering* dengan menggunakan *cosine similarity* terhadap fitur deskripsi berita pada dataset *BBC News*.
 
 **Mengapa Masalah Ini Penting?**
 - Pengguna cenderung kehilangan minat ketika tidak segera menemukan konten yang relevan.
@@ -13,7 +13,7 @@ Salah satu pendekatan sistem rekomendasi adalah *content-based filtering*, yang 
 
 **Referensi**:
 1. Ricci, F., Rokach, L., & Shapira, B. (2015). Recommender Systems Handbook. Springer.
-2. G. Adomavicius and A. Tuzhilin, “Toward the next generation of recommender systems: A survey of the state-of-the-art and possible extensions,” IEEE Transactions on Knowledge and Data Engineering, 2005.
+2. Upreti, M., Sengar, N., Goel, A., & Bahl, V. (2025). A book tracking and recommender system using machine learning algorithms. International Journal for Research in Applied Science & Engineering Technology (IJRASET), 13(5), 2377.
 
 ## Business Understanding
 
