@@ -45,6 +45,17 @@ Dataset yang digunakan adalah [*BBC News dataset on Kaggle*](https://www.kaggle.
 - *link*: Link berita.
 - *description*: Ringkasan isi berita.
 
+Pemeriksaan dilakukan menggunakan fungsi ```info()``` terhadap fitur-fitur dalam dataset, yang menunjukkan adanya ketidaksesuaian tipe data pada fitur pubDate. Tipe data pada fitur tersebut perlu diubah menjadi tipe data *datetime*.
+
+```python
+news["pubDate"] = pd.to_datetime(news["pubDate"])
+```
+
+Output:
+```text
+datetime64[ns]
+```
+
 Pemeriksaan terhadap *missing values* dan duplikasi data pada dataset dilakukan menggunakan kode berikut. Hasil analisis menunjukkan bahwa tidak terdapat missing value maupun data yang terduplikasi, sehingga tahap pembersihan data tidak diperlukan.
 
 ```python
