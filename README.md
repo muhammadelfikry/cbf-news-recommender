@@ -258,6 +258,14 @@ def precision_at_k(user_history, recommended_titles, k=5):
 
     hits = sum(1 for title in recommended_top_k if title in user_history_set)
     return hits / k
+
+precision = precision_at_k(ground_truth, recommendations)
+```
+
+Output:
+
+```text
+Precision@5: 0.40
 ```
 
 ### Average Precision
@@ -286,7 +294,17 @@ def average_precision(user_history, recommended_titles):
       return 0.0
 
   return sum_precision / len(user_history)
+
+ap = average_precision(ground_truth, recommendations)
 ```
+
+Output:
+
+```text
+Average Precision: 0.83
+```
+
+**Kesimpulan Evaluasi**:
 
 Dari evaluasi model menggunakan kedua metrik tersebut, diperoleh nilai Precision@5 sebesar 0,40, yang berarti rata-rata 2 dari 5 rekomendasi teratas merupakan item yang relevan dengan preferensi pengguna. Sementara itu, nilai Average Precision sebesar 0,83 menunjukkan bahwa secara keseluruhan urutan rekomendasi memiliki tingkat relevansi yang tinggi, di mana item relevan cenderung muncul di posisi teratas daftar rekomendasi.
 
